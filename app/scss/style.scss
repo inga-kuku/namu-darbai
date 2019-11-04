@@ -137,32 +137,31 @@ button {
     }
 }
 
-.showcase {
+.showcase-one {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     position: relative;
+}
 
-    &.img {
+.showcase-one img {
         position: absolute;
         width: 50%;
         display: inline-block;
         position: relative;
         width: 50%; 
-    }
-
-    &.h2 {
-        font-size: 18px;
-        text-align: left;
-    }
-
-    &.p {
-        font-size: 14px;
-        text-align: left;
-    }
-
-    &.text {
-        padding: 100px;
-        width: 400px;
-    }
 }
 
+.showcase-one h2 {
+    font-size: 18px;
+    text-align: left;
+}
+
+.showcase-one p {
+    font-size: 14px;
+    text-align: left;
+}
+
+.showcase-one text {
+    padding: 100px;
+    width: 400px;
+}
